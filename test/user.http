@@ -1,13 +1,28 @@
-### 获取用户列表
-POST http://127.0.0.1:33001/api/user/getUserList
+
+### 获取政策新闻
+POST http://127.0.0.1:33001/api/user/getGov
 Content-Type: application/json
 
+### 获取研究文献
+POST http://127.0.0.1:33001/api/user/getDoc
+Content-Type: application/json
 
+### 登录
+POST http://127.0.0.1:33001/api/user/signIn
+Content-Type: application/json
 
-### 获取用户详细信息
-POST http://127.0.0.1:33001/api/user/getUserInfo
+### 搜索
+POST http://127.0.0.1:33001/api/user/search
+Content-Type: application/json
+
+### 删除政策新闻
+POST http://127.0.0.1:33001/api/user/delete1
+Content-Type: application/json
+
+### 删除研究文献
+POST http://127.0.0.1:33001/api/user/delete2
 Content-Type: application/json
 
 {
-    "userId": "23209010001"
+    "content":"医工交叉还需制度“沃土”"
 }

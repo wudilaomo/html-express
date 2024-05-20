@@ -4,10 +4,10 @@
         "port": 33001
     },
     "dbConfig": {
-        "host": "hostname",
-        "port": 3306,
-        "user": "username",
-        "password": "password",
-        "database": "db_name"
+        "host": "47.236.151.26",
+        "port": 3311,
+        "user": "monica",
+        "password": "*********",
+        "database": "monica"
     }
 }
